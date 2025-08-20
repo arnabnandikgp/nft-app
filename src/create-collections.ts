@@ -52,7 +52,7 @@ async function createCollection() {
     mint: collectionMint,
     name: "somethingrandom",
     symbol: "MC2",
-    uri: "https://raw.githubusercontent.com/solana-developers/professional-education/main/labs/sample-nft-collection-offchain-data.json",
+    uri: "https://raw.githubusercontent.com/arnabnandikgp/nft-app/refs/heads/main/nft-data.json",
     sellerFeeBasisPoints: percentAmount(0),
     isCollection: true,
   });

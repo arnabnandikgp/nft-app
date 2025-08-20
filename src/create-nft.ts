@@ -43,7 +43,7 @@ async function createNftinstance() {
   console.log("Set up Umi instance for user");
 
   const collectionMint = publicKey(
-    "6rCd9CgPFAvStyz5zMvQzVchH7tLxvErTJgA2UjwX4Ba"
+    "Epqxb2XMGHZbVri698VpJL38chmVxzir9DMdYzCS9XR5"
   );
 
   console.log(`Creating NFT...`);

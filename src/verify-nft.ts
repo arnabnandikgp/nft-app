@@ -39,10 +39,10 @@ async function verifyNft() {
 
   // We could also dp
   const collectionAddress = publicKey(
-    "6rCd9CgPFAvStyz5zMvQzVchH7tLxvErTJgA2UjwX4Ba"
+    "Epqxb2XMGHZbVri698VpJL38chmVxzir9DMdYzCS9XR5"
   );
 
-  const nftAddress = publicKey("8dP2zNaWHw1LzTrXB4pTt4UDCE2zro68pANz7s5qpA49");
+  const nftAddress = publicKey("DvLzy7xoUELG9ZcjH9ZhqkXpeCJv891Vc427rawcTvjD");
 
   const transaction = await verifyCollectionV1(umi, {
     metadata: findMetadataPda(umi, { mint: nftAddress }),
